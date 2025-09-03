@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 export default function FloatingSticker() {
-  const stickerRef = useRef<HTMLImageElement>(null);
+  const stickerRef = useRef<HTMLImageElement | null>(null);
   const [scrollY, setScrollY] = useState(0);
   const [floatY, setFloatY] = useState(0); // safe client-only animated offset
 
@@ -28,28 +29,40 @@ export default function FloatingSticker() {
     return () => cancelAnimationFrame(frameId);
   }, []);
 
+  const transformStyle = {
+    transform: `translateY(${Math.sin(scrollY / 50) * 5 + floatY}px)`,
+  };
+
   return (
     <div className="relative">
       {/* Right-side floating sticker */}
-      <img
-        ref={stickerRef}
-        src="/sticker.png"
-        alt="Sticker"
-        className="fixed bottom-3 right-0 h-50 w-50 object-contain transition-transform duration-300"
-        style={{
-          transform: `translateY(${Math.sin(scrollY / 50) * 5 + floatY}px)`,
-        }}
-      />
+      <div
+        className="fixed bottom-3 right-0 h-50 w-50 transition-transform duration-300"
+        style={transformStyle}
+      >
+        <Image
+          ref={stickerRef}
+          src="/sticker.png"
+          alt="Sticker"
+          width={200}
+          height={200}
+          className="object-contain"
+        />
+      </div>
 
       {/* Left-side cat.png */}
-      <img
-        src="/cat.png"
-        alt="Cute Cat"
-        className="fixed bottom-3 left-0 h-40 w-40 object-contain transition-transform duration-300"
-        style={{
-          transform: `translateY(${Math.sin(scrollY / 50) * 5 + floatY}px)`,
-        }}
-      />
+      <div
+        className="fixed bottom-3 left-0 h-40 w-40 transition-transform duration-300"
+        style={transformStyle}
+      >
+        <Image
+          src="/cat.png"
+          alt="Cute Cat"
+          width={160}
+          height={160}
+          className="object-contain"
+        />
+      </div>
     </div>
   );
 }
