@@ -44,8 +44,8 @@ export default function FloatingSticker() {
           ref={stickerRef}
           src="/sticker.png"
           alt="Sticker"
-          width={200}
-          height={200}
+          width={160}
+          height={160}
           className="object-contain"
         />
       </div>
@@ -58,8 +58,8 @@ export default function FloatingSticker() {
         <Image
           src="/cat.png"
           alt="Cute Cat"
-          width={160}
-          height={160}
+          width={120}
+          height={120}
           className="object-contain"
         />
       </div>
