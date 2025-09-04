@@ -81,7 +81,7 @@ const categories = {
   { name: "Wireframing", icon: <FiLayout className="text-gray-400" /> },
   { name: "Prototyping", icon: <FiPenTool className="text-indigo-400" /> },
   { name: "User Research", icon: <HiOutlinePresentationChartBar className="text-green-500" /> },
-];
+],
   "Tools & Platforms": [
     { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
     { name: "GitHub", icon: <FaGithub className="text-gray-800 dark:text-white" /> },
