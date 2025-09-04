@@ -4,7 +4,7 @@
 Welcome to my **personal portfolio website**!
 It’s built with **Next.js, React, and Tailwind CSS**, designed to showcase my **projects, skills, achievements, and resume** in a sleek, interactive way.
 
-✨ Live Demo → [[Click here](https://sagarika-portfoliowebsite.netlify.app/)]
+✨ Check out the live demo of the portfolio website → [[here](https://sagarika-portfoliowebsite.netlify.app/)]
 
 ---
 
