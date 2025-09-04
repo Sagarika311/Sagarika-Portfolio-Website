@@ -64,6 +64,7 @@ const categories = {
   ],
   "AI, Machine Learning & Data Science": [
     { name: "TensorFlow", icon: <SiTensorflow className="text-orange-400" /> },
+    { name: "Keras", icon: <MdOutlineScience className="text-red-500" /> }, // Added with placeholder
     { name: "PyTorch", icon: <SiPytorch className="text-red-500" /> },
     { name: "Scikit-learn", icon: <SiScikitlearn className="text-yellow-500" /> },
     { name: "Pandas", icon: <SiPandas className="text-blue-400" /> },
