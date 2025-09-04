@@ -38,7 +38,9 @@ import { VscVscode } from "react-icons/vsc";
 import { MdOutlineScience } from "react-icons/md"; // Placeholder for Keras
 import { SiExpress, SiStreamlit, SiDocker, SiNetlify,} from "react-icons/si";
 import { SiPlotly } from "react-icons/si"; // used as proxy for Matplotlib
-
+import { MdBrush } from "react-icons/md";
+import { HiOutlinePresentationChartBar } from "react-icons/hi";
+import { FiPenTool, FiLayout } from "react-icons/fi";
 
 const categories = {
   Languages: [
@@ -72,12 +74,14 @@ const categories = {
     { name: "Matplotlib", icon: <SiPlotly className="text-blue-600" /> }, // Using Plotly icon as substitute Added
     { name: "NLTK", icon: <MdOutlineScience className="text-green-700" /> }, // Added
   ],
-  "UI/UX & Design": [
-    { name: "Figma", icon: <FaFigma className="text-pink-500" /> },
-    { name: "Adobe XD", icon: <MdOutlineDesignServices className="text-pink-400" /> },
-    { name: "Wireframing", icon: <MdOutlineDesignServices className="text-gray-400" /> },
-    { name: "Prototyping", icon: <MdOutlineDesignServices className="text-indigo-400" /> },
-  ],
+  const uiuxCategory = [
+  { name: "Figma", icon: <FaFigma className="text-pink-500" /> },
+  { name: "Adobe XD", icon: <MdOutlineDesignServices className="text-pink-400" /> },
+  { name: "Sketch", icon: <MdBrush className="text-yellow-400" /> },
+  { name: "Wireframing", icon: <FiLayout className="text-gray-400" /> },
+  { name: "Prototyping", icon: <FiPenTool className="text-indigo-400" /> },
+  { name: "User Research", icon: <HiOutlinePresentationChartBar className="text-green-500" /> },
+];
   "Tools & Platforms": [
     { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
     { name: "GitHub", icon: <FaGithub className="text-gray-800 dark:text-white" /> },
