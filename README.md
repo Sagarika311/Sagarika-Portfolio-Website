@@ -1,26 +1,27 @@
-
 # 🌐 Portfolio Website
 
-Welcome to my **personal portfolio website**!
+Welcome to my **personal portfolio website**!  
 It’s built with **Next.js, React, and Tailwind CSS**, designed to showcase my **projects, skills, achievements, and resume** in a sleek, interactive way.
 
-✨ Check out the live demo of the portfolio website → [here](https://sagarika-portfoliowebsite.netlify.app/)
+🚀 Live Demo → [Portfolio Website](https://sagarika-portfoliowebsite.netlify.app/)
 
+---
 
 ## 🚀 Features
 
-🎥 Full-screen background video with overlay for readability
-✅ Clean & modern responsive design
-🧭 Responsive Navbar for smooth navigation
-🙋 Hero section introducing me
-💻 Projects showcase with smooth layout
-⚡ Skills section showing my tech stack
-🏆 Achievements section highlighting milestones
-📄 Resume download/view option
-📬 Contact form with thank-you page
-🎨 Floating Sticker for fun interactive design
-📌 Footer credits with my name
+- 🎥 Full-screen background video with overlay for readability  
+- ✅ Clean & modern responsive design  
+- 🧭 Responsive Navbar for smooth navigation  
+- 🙋 Hero section introducing me  
+- 💻 Projects showcase with smooth layout  
+- ⚡ Skills section showing my tech stack  
+- 🏆 Achievements section highlighting milestones  
+- 📄 Resume download/view option  
+- 📬 Contact form with thank-you page  
+- 🎨 Floating Sticker for fun interactive design  
+- 📌 Footer credits with my name  
 
+---
 
 ## 🛠️ Tech Stack
 
@@ -31,10 +32,12 @@ It’s built with **Next.js, React, and Tailwind CSS**, designed to showcase my 
 | **Icons**     | [Lucide React](https://lucide.dev/)                                   |
 | **Hosting**   | [Netlify](https://www.netlify.com/)                                   |
 
+---
 
 ## 📂 Project Structure
 
 ```
+
 portfolio/
 ├── app/
 │   ├── contact/              # Contact page
@@ -68,7 +71,9 @@ portfolio/
 ├── tsconfig.json
 └── README.md
 
-```
+````
+
+---
 
 ## ⚡ Installation
 
@@ -81,9 +86,12 @@ cd portfolio
 
 # Install dependencies
 npm install
-```
+````
+
+---
 
 ## ⚡ Usage
+
 ```bash
 # Run development server
 npm run dev
@@ -92,19 +100,39 @@ npm run dev
 http://localhost:3000
 ```
 
+---
+
+## 📸 Screenshots  
+
+### 🏠 Homepage  
+![Homepage](./screenshots/homepage.png)  
+
+### 📬 Contact Page  
+![Contact Page](./screenshots/contactpage.png)  
+
+### 🙏 Thank You Page  
+![Thank You Page](./screenshots/thankyoupage.png)  
+
+---
+
 ## 📜 License
 
 This project is **open-source** under the [MIT License](LICENSE).
 
+---
 
 ## ✨ Author
 
 **👩‍💻 Sagarika**
 📌 Passionate about building beautiful and functional web experiences.
 
-##  Contact Information
+---
 
-If you have any questions or feedback, feel free to reach out to me:
-🔗 [Email](sagarikabhagat311@gmail.com) | [LinkedIn](https://linkedin.com/in/Sagarika%20Bhagat)
+## 📬 Contact Information
 
+If you have any questions or feedback, feel free to reach out:
 
+* 📧 Email: [sagarikabhagat311@gmail.com](mailto:sagarikabhagat311@gmail.com)
+* 🔗 LinkedIn: [Sagarika Bhagat](https://linkedin.com/in/sagarika-bhagat)
+
+---
