@@ -78,7 +78,7 @@ const categories = {
   "UI/UX & Design": [
   { name: "Figma", icon: <FaFigma className="text-pink-500" /> },
   { name: "Adobe XD", icon: <MdOutlineDesignServices className="text-pink-400" /> },
-  { name: "Sketch", icon: <MdBrush className="text-yellow-400" /> },
+  // { name: "Sketch", icon: <MdBrush className="text-yellow-400" /> },
   { name: "Wireframing", icon: <FiLayout className="text-gray-400" /> },
   { name: "Prototyping", icon: <FiPenTool className="text-indigo-400" /> },
   { name: "User Research", icon: <HiOutlinePresentationChartBar className="text-green-500" /> },
