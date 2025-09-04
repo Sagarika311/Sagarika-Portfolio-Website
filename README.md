@@ -104,13 +104,13 @@ http://localhost:3000
 
 ## 📸 Screenshots  
 
-### 🏠 Homepage  
+### Homepage  
 ![Homepage](./screenshots/Homepage.png)  
 
-### 📬 Contact Page  
+### Contact Page  
 ![Contact Page](./screenshots/Contactpage.png)  
 
-### 🙏 Thank You Page  
+### Thank You Page  
 ![Thank You Page](./screenshots/Thankyoupage.png)  
 
 ---
