@@ -7,25 +7,25 @@ export default function Projects() {
       title: "Chatbot for Customer Service",
       desc: "Chatbot built using Flask, OpenAI API, Pandas, NLTK, and Scikit-learn to provide natural language responses, supported by ML/NLP tools for data-driven query handling.",
       link: "https://github.com/Sagarika311/Chatbot-for-Customer-Service",
-      tech: ["Flask", "OpenAI API", "Pandas", "NLP", "ML"],
+      tech: ["Flask", "OpenAI API", "NLP", "ML"],
     },
     {
       title: "Sentiment Analysis of Product Reviews",
       desc: "Classifies product reviews as positive or negative using Random Forest and NLP techniques with a Flask interface.",
       link: "https://github.com/Sagarika311/Sentiment-Analysis-of-Product-Reviews",
-      tech: ["Flask", "Random Forest", "Pandas", "Numpy", "RegEx"],
+      tech: ["Flask", "Random Forest", "Pandas", "Numpy"],
     },
     {
       title: "Credit Card Fraud Detection",
       desc: "Detects fraudulent transactions using Random Forest, handling imbalanced datasets and analyzing correlations.",
       link: "https://github.com/Sagarika311/Credit-Card-Fraud-Detection-using-ML",
-      tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Seaborn"],
+      tech: ["Python", "Scikit-learn", "Matplotlib", "Seaborn"],
     },
     {
       title: "Spam Email Detector",
       desc: "Uses NLP and a Naive Bayes classifier to detect spam emails, improving security and reducing phishing risks.",
       link: "https://github.com/Sagarika311/Spam-Email-Detector",
-      tech: ["Python", "Naive Bayes", "NLP", "Scikit-learn",  "NLTK"],
+      tech: ["Python", "Naive Bayes", "Scikit-learn",  "NLTK"],
     },
   ];
 
