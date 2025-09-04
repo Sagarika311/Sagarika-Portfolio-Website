@@ -1,5 +1,5 @@
 
-# 🌐 Sagarika's Portfolio Website
+# 🌐 Portfolio Website
 
 Welcome to my **personal portfolio website**!
 It’s built with **Next.js, React, and Tailwind CSS**, designed to showcase my **projects, skills, achievements, and resume** in a sleek, interactive way.
