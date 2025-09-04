@@ -74,7 +74,7 @@ const categories = {
     { name: "Matplotlib", icon: <SiPlotly className="text-blue-600" /> }, // Using Plotly icon as substitute Added
     { name: "NLTK", icon: <MdOutlineScience className="text-green-700" /> }, // Added
   ],
-  const uiuxCategory = [
+  "UI/UX & Design": [
   { name: "Figma", icon: <FaFigma className="text-pink-500" /> },
   { name: "Adobe XD", icon: <MdOutlineDesignServices className="text-pink-400" /> },
   { name: "Sketch", icon: <MdBrush className="text-yellow-400" /> },
