@@ -101,22 +101,18 @@ http://localhost:3000
 
 This project is **open-source** under the [MIT License](LICENSE).
 
----
 
 ## ✨ Author
 
 **👩‍💻 Sagarika**
 
----
 📌 Passionate about building beautiful and functional web experiences.
-🔗 [Portfolio](https://sagarika-portfoliowebsite.netlify.app/) | 
+🔗 [Portfolio](https://sagarika-portfoliowebsite.netlify.app/)
 
----
 
 ##  Contact Information
 
 If you have any questions or feedback, feel free to reach out to me:
 🔗 [LinkedIn](https://linkedin.com/in/Sagarika%20Bhagat) | [GitHub](https://github.com/Sagarika311)
 
----
 
