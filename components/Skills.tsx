@@ -1,5 +1,18 @@
 "use client";
-
+import {
+  FaJava,
+  FaPython,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaBootstrap,
+  FaGitAlt,
+  FaGithub,
+  FaAws,
+  FaFigma,
+} from "react-icons/fa";
 import {
   SiTypescript,
   SiMysql,
@@ -19,13 +32,13 @@ import {
   SiWordpress,
   SiMongodb,
   SiNextdotjs,
-  SiExpress,
-  SiStreamlit,
-  SiDocker,
-  SiNetlify,
-  SiPlotly, // proxy for Matplotlib
 } from "react-icons/si";
-import { MdOutlineScience } from "react-icons/md"; // placeholder for Keras, Seaborn, NLTK
+import { MdOutlineDesignServices } from "react-icons/md";
+import { VscVscode } from "react-icons/vsc";
+import { MdOutlineScience } from "react-icons/md"; // Placeholder for Keras
+import { SiExpress, SiStreamlit, SiDocker, SiNetlify, SiSeaborn, SiNltk } from "react-icons/si";
+import { SiPlotly } from "react-icons/si"; // used as proxy for Matplotlib
+
 
 const categories = {
   Languages: [
