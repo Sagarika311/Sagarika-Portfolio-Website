@@ -69,11 +69,11 @@ const categories = {
     { name: "Scikit-learn", icon: <SiScikitlearn className="text-yellow-500" /> },
     { name: "Pandas", icon: <SiPandas className="text-blue-400" /> },
     { name: "NumPy", icon: <SiNumpy className="text-blue-500" /> },
-    { name: "OpenCV", icon: <SiOpencv className="text-green-400" /> },
+    // { name: "OpenCV", icon: <SiOpencv className="text-green-400" /> },
     { name: "Streamlit", icon: <SiStreamlit className="text-pink-600" /> }, // added
     { name: "Seaborn", icon: <MdOutlineScience className="text-cyan-600" /> }, // Added
     { name: "Matplotlib", icon: <SiPlotly className="text-blue-600" /> }, // Using Plotly icon as substitute Added
-    { name: "NLTK", icon: <MdOutlineScience className="text-green-700" /> }, // Added
+    // { name: "NLTK", icon: <MdOutlineScience className="text-green-700" /> }, // Added
   ],
   "UI/UX & Design": [
   { name: "Figma", icon: <FaFigma className="text-pink-500" /> },
