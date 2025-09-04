@@ -105,13 +105,13 @@ http://localhost:3000
 ## 📸 Screenshots  
 
 ### 🏠 Homepage  
-![Homepage](./screenshots/homepage.png)  
+![Homepage](./screenshots/Homepage.png)  
 
 ### 📬 Contact Page  
-![Contact Page](./screenshots/contactpage.png)  
+![Contact Page](./screenshots/Contactpage.png)  
 
 ### 🙏 Thank You Page  
-![Thank You Page](./screenshots/thankyoupage.png)  
+![Thank You Page](./screenshots/Thankyoupage.png)  
 
 ---
 
