@@ -1,25 +1,26 @@
-# ![Banner](./screenshots/banner.png)
 
 # 🌐 Sagarika's Portfolio Website
 
 Welcome to my **personal portfolio website**!
 It’s built with **Next.js, React, and Tailwind CSS**, designed to showcase my **projects, skills, achievements, and resume** in a sleek, interactive way.
 
-✨ Live Demo → [[https://your-portfolio-link.com](https://sagarika-portfoliowebsite.netlify.app/)]
+✨ Live Demo → [[Click here](https://sagarika-portfoliowebsite.netlify.app/)]
 
 ---
 
 ## 🚀 Features
 
-✅ Full-screen **background video** with overlay for readability
-✅ Clean & modern **responsive design**
-✅ **Projects showcase** with smooth layout
-✅ **Skills & Tech Stack** highlighted
-✅ **Achievements section** for milestones
-✅ **Resume section** (view/download)
-✅ **Contact form** to reach me
-✅ **Floating Sticker** for fun interactivity
-✅ **Footer credits** with my name
+🎥 Full-screen background video with overlay for readability
+✅ Clean & modern responsive design
+🧭 Responsive Navbar for smooth navigation
+🙋 Hero section introducing me
+💻 Projects showcase with smooth layout
+⚡ Skills section showing my tech stack
+🏆 Achievements section highlighting milestones
+📄 Resume download/view option
+📬 Contact form with thank-you page
+🎨 Floating Sticker for fun interactive design
+📌 Footer credits with my name
 
 ---
 
@@ -30,7 +31,7 @@ It’s built with **Next.js, React, and Tailwind CSS**, designed to showcase my 
 | **Framework** | [Next.js](https://nextjs.org/)                                        |
 | **Frontend**  | [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/) |
 | **Icons**     | [Lucide React](https://lucide.dev/)                                   |
-| **Hosting**   | [Netlify](https://www.netlify.com/) / [Vercel](https://vercel.com/)   |
+| **Hosting**   | [Netlify](https://www.netlify.com/)                                   |
 
 ---
 
@@ -74,7 +75,7 @@ portfolio/
 
 ---
 
-## ⚡ Getting Started
+## ⚡ Installation
 
 Clone & run locally in a few steps:
 
@@ -85,7 +86,10 @@ cd portfolio
 
 # Install dependencies
 npm install
+```
 
+## ⚡ Usage
+```bash
 # Run development server
 npm run dev
 
@@ -102,9 +106,17 @@ This project is **open-source** under the [MIT License](LICENSE).
 ## ✨ Author
 
 **👩‍💻 Sagarika**
-📌 Passionate about building beautiful and functional web experiences.
 
-🔗 [Portfolio](https://sagarika-portfoliowebsite.netlify.app/) | [LinkedIn](https://linkedin.com/in/Sagarika%20Bhagat) | [GitHub](https://github.com/Sagarika311)
+---
+📌 Passionate about building beautiful and functional web experiences.
+🔗 [Portfolio](https://sagarika-portfoliowebsite.netlify.app/) | 
+
+---
+
+##  Contact Information
+
+If you have any questions or feedback, feel free to reach out to me:
+🔗 [LinkedIn](https://linkedin.com/in/Sagarika%20Bhagat) | [GitHub](https://github.com/Sagarika311)
 
 ---
 
