@@ -6,7 +6,6 @@ It’s built with **Next.js, React, and Tailwind CSS**, designed to showcase my 
 
 ✨ Check out the live demo of the portfolio website → [here(https://sagarika-portfoliowebsite.netlify.app/)]
 
----
 
 ## 🚀 Features
 
@@ -22,7 +21,6 @@ It’s built with **Next.js, React, and Tailwind CSS**, designed to showcase my 
 🎨 Floating Sticker for fun interactive design
 📌 Footer credits with my name
 
----
 
 ## 🛠️ Tech Stack
 
@@ -33,7 +31,6 @@ It’s built with **Next.js, React, and Tailwind CSS**, designed to showcase my 
 | **Icons**     | [Lucide React](https://lucide.dev/)                                   |
 | **Hosting**   | [Netlify](https://www.netlify.com/)                                   |
 
----
 
 ## 📂 Project Structure
 
@@ -72,8 +69,6 @@ portfolio/
 └── README.md
 
 ```
-
----
 
 ## ⚡ Installation
 
