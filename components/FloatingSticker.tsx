@@ -37,8 +37,8 @@ export default function FloatingSticker() {
     <div className="relative">
       {/* Right-side floating sticker */}
       <div
-        className="fixed bottom-3 right-0 h-50 w-50 transition-transform duration-300"
-        style={transformStyle}
+        className="fixed bottom-3 h-40 w-40 transition-transform duration-300"
+        style={{ ...transformStyle, right: '20px' }} // shifted 20px from right
       >
         <Image
           ref={stickerRef}
@@ -49,7 +49,6 @@ export default function FloatingSticker() {
           className="object-contain"
         />
       </div>
-
       {/* Left-side cat.png */}
       <div
         className="fixed bottom-3 left-3 h-40 w-40 transition-transform duration-300"
