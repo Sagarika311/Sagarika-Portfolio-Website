@@ -51,7 +51,7 @@ export default function FloatingSticker() {
       </div>
       {/* Left-side cat.png */}
       <div
-        className="fixed bottom-3 left-3 h-40 w-40 transition-transform duration-300"
+        className="fixed bottom-3 left-3 h-30 w-30 transition-transform duration-300"
         style={transformStyle}
       >
         <Image
