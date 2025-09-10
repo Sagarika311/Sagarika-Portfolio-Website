@@ -58,7 +58,7 @@ const categories = {
     { name: "Next.js", icon: <SiNextdotjs className="text-black dark:text-white" /> },
     // { name: "Redux", icon: <SiRedux className="text-purple-600" /> }, // added
     { name: "Node.js", icon: <FaNodeJs className="text-green-600" /> },
-    { name: "Express.js", icon: <SiExpress className="text-gray-700 dark:text-white" /> }, // add
+    { name: "Express.js", icon: <SiExpress className="text-gray-700 dark:text-white" /> }, // added
     { name: "Django", icon: <SiDjango className="text-green-700" /> },
     { name: "Flask", icon: <SiFlask className="text-gray-700" /> },
     { name: "FastAPI", icon: <SiFastapi className="text-green-500" /> },
@@ -67,14 +67,14 @@ const categories = {
   ],
   "AI, Machine Learning & Data Science": [
     { name: "TensorFlow", icon: <SiTensorflow className="text-orange-400" /> },
-    { name: "Keras", icon: <MdOutlineScience className="text-red-500" /> }, // Added with placeholder
+    // { name: "Keras", icon: <MdOutlineScience className="text-red-500" /> }, // Added with placeholder
     { name: "PyTorch", icon: <SiPytorch className="text-red-500" /> },
     { name: "Scikit-learn", icon: <SiScikitlearn className="text-yellow-500" /> },
     { name: "Pandas", icon: <SiPandas className="text-blue-400" /> },
     { name: "NumPy", icon: <SiNumpy className="text-blue-500" /> },
-    // { name: "OpenCV", icon: <SiOpencv className="text-green-400" /> },
+    { name: "OpenCV", icon: <SiOpencv className="text-green-400" /> },
     { name: "Streamlit", icon: <SiStreamlit className="text-pink-600" /> }, // added
-    { name: "Seaborn", icon: <MdOutlineScience className="text-cyan-600" /> }, // Added
+    // { name: "Seaborn", icon: <MdOutlineScience className="text-cyan-600" /> }, // Added
     { name: "Matplotlib", icon: <SiPlotly className="text-blue-600" /> }, // Using Plotly icon as substitute Added
     // { name: "NLTK", icon: <MdOutlineScience className="text-green-700" /> }, // Added
   ],
