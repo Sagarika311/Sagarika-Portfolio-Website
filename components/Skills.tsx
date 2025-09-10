@@ -32,6 +32,8 @@ import {
   SiWordpress,
   SiMongodb,
   SiNextdotjs,
+  SiRedux,
+  SiVercel,
 } from "react-icons/si";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { VscVscode } from "react-icons/vsc";
@@ -54,6 +56,7 @@ const categories = {
   "Web Frameworks & Libraries": [
     { name: "React", icon: <FaReact className="text-cyan-400" /> },
     { name: "Next.js", icon: <SiNextdotjs className="text-black dark:text-white" /> },
+    // { name: "Redux", icon: <SiRedux className="text-purple-600" /> }, // added
     { name: "Node.js", icon: <FaNodeJs className="text-green-600" /> },
     { name: "Express.js", icon: <SiExpress className="text-gray-700 dark:text-white" /> }, // add
     { name: "Django", icon: <SiDjango className="text-green-700" /> },
@@ -84,18 +87,19 @@ const categories = {
   { name: "User Research", icon: <HiOutlinePresentationChartBar className="text-green-500" /> },
 ],
   "Tools & Platforms": [
-    { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
+    // { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
     { name: "GitHub", icon: <FaGithub className="text-gray-800 dark:text-white" /> },
     { name: "VSCode", icon: <VscVscode className="text-blue-500" /> },
     { name: "Jupyter Notebook", icon: <SiJupyter className="text-orange-500" /> },
     { name: "Postman", icon: <SiPostman className="text-orange-600" /> },
     { name: "MySQL", icon: <SiMysql className="text-blue-700" /> },
     { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> },
-    // { name: "Docker", icon: <SiDocker className="text-blue-500" /> }, // added 
+    { name: "Docker", icon: <SiDocker className="text-blue-500" /> }, // added 
   ],
   "Cloud & CMS": [
     { name: "WordPress", icon: <SiWordpress className="text-blue-600" /> },
     { name: "Netlify", icon: <SiNetlify className="text-cyan-500" /> }, // added
+    { name: "Vercel", icon: <SiVercel className="text-black dark:text-white" /> }, // added
     { name: "Render", icon: <SiRender className="text-indigo-500" /> }, //added
     { name: "GCP", icon: <SiGooglecloud className="text-blue-500" /> },
     { name: "AWS", icon: <FaAws className="text-yellow-500" /> },
