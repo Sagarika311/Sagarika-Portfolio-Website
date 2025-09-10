@@ -38,7 +38,7 @@ import {
 import { MdOutlineDesignServices } from "react-icons/md";
 import { VscVscode } from "react-icons/vsc";
 import { MdOutlineScience } from "react-icons/md"; // Placeholder for Keras
-import { SiExpress, SiStreamlit, SiDocker, SiNetlify, SiRender,} from "react-icons/si";
+import { SiExpress, SiStreamlit, SiDocker, SiNetlify, SiRender, SiRailway } from "react-icons/si";
 import { SiPlotly } from "react-icons/si"; // used as proxy for Matplotlib
 import { MdBrush } from "react-icons/md";
 import { HiOutlinePresentationChartBar } from "react-icons/hi";
@@ -101,6 +101,7 @@ const categories = {
     { name: "Netlify", icon: <SiNetlify className="text-cyan-500" /> }, // added
     { name: "Vercel", icon: <SiVercel className="text-black dark:text-white" /> }, // added
     { name: "Render", icon: <SiRender className="text-indigo-500" /> }, //added
+    { name: "Railway", icon: <SiRailway className="text-purple-600" /> }, // added
     { name: "GCP", icon: <SiGooglecloud className="text-blue-500" /> },
     { name: "AWS", icon: <FaAws className="text-yellow-500" /> },
   ],
